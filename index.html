@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>C H A R L I E</title>
+</head>
+<body>
+    <h1>hi, we are building charlie</h1>
+
+    <audio src="power up.mp3" id="turn_on"></audio>
+    
+    <div class="machine">
+
+    <div class="clock cont">
+         <img src="clock gif.gif" class="icon">
+           <p id="time"></p>
+    </div>
+             
+    <div class="internet cont">
+         <img src="internet gif.gif" class="icon">
+           <p id="internet"></p>
+    </div>
+    <div class="battery cont">
+         <img src="battery gif.gif" class="icon">
+         <p id="battery"></p>
+    </div>
+
+
+        <div class="temp">
+            <p id="location"></p>
+            <p id="country"></p>
+            <p id="weatherT"></p>
+            <p id="weatherD"></p>
+            <img src="" id="weatherIcon" />
+            <p id="oTemp"></p>
+            <p id="feelLikeTemp"></p>
+            <p id="minT"></p>
+            <p id="maxT"></p>
+        </div>
+        <div class="calendar">
+            <p id="month"></p>
+            <p id="day"></p>
+            <p id="date"></p>
+            <p id="year"></p>
+        </div>
+        <img src="charlie heart.gif" id="heart">
+        <img src="charlie image.gif" id="charlie">
+    </div>
+    <div id="start_charlie_btn" class="hide_on_small">
+        <img src="jarvis button.gif" alt="start jarvis">
+        <p>Start Recognition</p>
+    </div>
+    <button id="stop_charlie_btn" class="hide_on_small">
+        <img src="jarvis button.gif" alt="start jarvis" />
+        <p>Stop Recognition</p>
+      </button>
+
+    <div class="jarvis_setup in_middle hide_on_small">
+        <label for="">Your Name</label>
+        <input type="text">
+        <br>
+        <label for="">Your Bio</label>
+        <input type="text">
+        <br>
+        <label for="">Your Location</label>
+        <input type="text">
+        <br>
+        <label for="">Instagram Profile</label>
+        <input type="text">
+        <br>
+        <label for="">Twitter Profile</label>
+        <input type="text">
+        <br>
+        <br>
+        <button id="sub_btn">Submit</button>
+    </div>
+    <div class="messages">
+
+    </div>
+    <div class="commands in_middle">
+
+    </div>
+
+
+    <button id="start" style="display: none;">vr start</button>
+    <button id="stop" style="display: none;">vr stop</button>
+    <button id="speak" style="display: none;">speak out</button>
+
+<!-- <div class="command in_middle hide_on_small"></div>  -->
+ <div class="new_jarvis_window">
+    <img src="charlie heart.gif" height="230" id="jarvis_start"/>
+</div>
+
+<script src="app.js"></script>
+<noscript>you need javascript for this webapp</noscript>
+</body>
+</html>
