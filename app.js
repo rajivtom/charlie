@@ -273,7 +273,7 @@ let current = event.resultIndex;
         document.querySelector(".commands").style.display = "block"
     }
     if(transcript.includes("who created you?")) {
-        readOut("I was created by Mr. Rajiv Tomar ,Piyush and Chetan");
+        readOut("I was created by Mr. Rajiv Tomar");
     }
     if(transcript.includes("close this")) {
         readOut("closed");
@@ -324,7 +324,7 @@ let current = event.resultIndex;
       }
     //jarvis bio
     if(transcript.includes("tell me about yourself")){
-        readOut("sir, i am a charlie, a voice assistant made for browsers using javascript by Rajiv Tomar, Piyush and Chetan. i can do anything whoch can be done from a browser.")
+        readOut("sir, i am a charlie, a voice assistant made for browsers using javascript by Rajiv Tomar. i can do anything whoch can be done from a browser.")
     }
     if(transcript.includes("open youtube")) {
         readOut("opening youtube sir");
